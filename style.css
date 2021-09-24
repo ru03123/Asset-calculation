@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.wrap {
+    width: 100%;
+}
+
+.banner {
+    -webkit-box-shadow: 0 0 15px #f3d42e;
+    -moz-box-shadow: 0 0 15px #f3d42e;
+    box-shadow: 0 0 15px #f3d42e;
+    width: 1296px;
+    height: 100vh;
+    border: 3px solid rgb(226, 224, 224);
+    background-color: rgba(203, 212, 221, 0.2);
+    margin: auto;
+    display: flex;
+}
+
+.text {
+    background-color: rgb(4, 9, 14);
+}
+
+.text h1 {
+    color: rgb(117, 235, 205);
+    text-align: center;
+}
+
+.btn {
+    width: 198px;
+    height: 150px;
+    right: 20px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.btn .add {
+    background-color: #e9772c;
+}
+
+.btn .remove {
+    background-color: black;
+}
+
+.btn p {
+    font-size: 16px;
+    color: rgb(251, 251, 246);
+}
+
+.app {
+    margin-top: 25px;
+    width: 565px;
+    height: 625px;
+    border: 3px solid black;
+    position: relative;
+}
+
+.applist {
+    padding-left: 8px;
+}
+
+.applist p {
+    margin: 5px;
+    font-size: 18px;
+    color: rgb(11, 11, 192);
+}
+
+input {
+    width: 190px;
+    height: 30px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.list {
+    padding-top: 15px;
+    width: 420px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 242px;
+}
+
+.item {
+    position: relative;
+    width: 418px;
+    height: 336px;
+    border: 2px solid black;
+}
+
+.title {
+    background-color: rgb(208, 214, 219);
+    width: 100%;
+    height: 27px;
+    display: flex;
+}
+
+.title span {
+    font-size: 18px;
+    margin: auto;
+    color: rgb(250, 27, 27);
+}
+
+.itemlist h3 {
+    margin: 12 0px;
+}
+
+.itemlist h3 span {
+    margin-left: 20px;
+}
+
+.hr {
+    Background-Color: Transparent !Important;
+    /* 顏色透明 */
+    Border-Bottom: 2px #5f5f5f Dashed;
+}
+
+.result {
+    right: 20px;
+    position: absolute;
+    display: flex;
+}
+
+.itemlist p {
+    margin: 8px;
+    color: #d36319;
+}
+
+.result h2 {
+    color: rgb(44, 96, 216);
+}
